@@ -1,10 +1,5 @@
 
-#runn ssh
-/usr/sbin/sshd
-#echo 'root:docker' |chpasswd
 
-# install npm 
- #npm install -g bower
 
 # Install Wordpress
 cd /usr/share/nginx/

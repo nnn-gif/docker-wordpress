@@ -47,8 +47,6 @@ ADD ./config/nginx-site.conf /etc/nginx/sites-available/default
 RUN /usr/bin/easy_install supervisor
 RUN /usr/bin/easy_install supervisor-stdout
 ADD ./config/supervisord.conf /etc/supervisord.conf
-ADD ./config/local-env.php /usr/share/local-env.php
-ADD ./config/wp-config.php /usr/share/wp-config.php
 # Wordpress Initialization and Startup Script
 ADD ./tools/start.sh /start.sh
 ADD ./config/env.sh /env.sh
