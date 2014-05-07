@@ -10,8 +10,6 @@ wget http://wordpress.org/wordpress-${WP_VERSION}.tar.gz
 # cp -rf /usr/share/nginx/wordpress/* /usr/share/nginx/www/*
  chown -R www-data:www-data /usr/share/nginx/www
 
-cp /usr/share/local-env.php  /usr/share/nginx/www/local-env.php
-cp /usr/share/wp-config.php  /usr/share/nginx/www/wp-config.php
 
 
  echo "starting MySQL server..."
